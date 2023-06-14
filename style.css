@@ -1,0 +1,22 @@
+.fcontainer{
+display:flex;
+border: 2px solid rgb(106, 101, 41);
+height: 45vh;
+/* flex-direction: row-reverse; */
+justify-content: baseline;
+align-items: flex-start;
+/* flex-wrap: wrap; */
+flex-wrap: wrap-reverse;
+}
+.fitem{
+    background-color: rgb(148, 148, 195);
+    border: 2px solid black;
+    margin:12px;
+    width: 122px;
+    height: 122px;
+}
+.item1{
+    order: 3;
+    /* flex-grow: 2; */
+    align-self: center;
+}
